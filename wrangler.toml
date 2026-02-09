@@ -8,3 +8,13 @@ EUSKALMET_ISSUER = "miApp"
 EUSKALMET_EMAIL = "96haizea@gmail.com"
 EUSKALMET_TOKEN_TTL_SECONDS = "300"
 ALLOWED_ORIGINS = "*"
+
+
+[durable_objects]
+bindings = [
+  { name = "SOCIAL_ROOM", class_name = "SocialRoom" }
+]
+
+[[migrations]]
+tag = "v1"
+new_classes = ["SocialRoom"]
