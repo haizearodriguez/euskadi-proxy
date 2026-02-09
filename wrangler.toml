@@ -1,0 +1,10 @@
+name = "euskadi-proxy"
+main = "src/index.ts"
+compatibility_date = "2026-01-22"
+
+[vars]
+EUSKALMET_BASE_URL = "https://api.euskadi.eus"
+EUSKALMET_ISSUER = "miApp"
+EUSKALMET_EMAIL = "96haizea@gmail.com"
+EUSKALMET_TOKEN_TTL_SECONDS = "300"
+ALLOWED_ORIGINS = "*"
